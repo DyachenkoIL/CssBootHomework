@@ -13,25 +13,25 @@
 <body data-spy="scroll" data-target="#mainmenu">
 	<a name="#top"></a>
 
-	<input type="checkbox" id="themeswapper">
-	<label class="switch" for="themeswapper">
+	<input type="checkbox" id="colorswapper">
+	<label class="switch" for="colorswapper">
 		<span class="slider round"></span>
 	</label>
-	<div class="header theme-1">
-		<a href="" class="logo">Logo</a>
+	<div class="header color-1">
+		<a href="#top" class="logo">Logo</a>
 		<ul class="nav nav-pills" id="mainmenu">
-			<li class="nav-item"><a class="nav-link" href="#carousel1">Home</a></li>
+			<li class="nav-item"><a class="nav-link" href="#new_carousel">Home</a></li>
 			<li class="nav-item"><a class="nav-link" href="#phones">Phones</a></li>
 			<li class="nav-item"><a class="nav-link" href="#contact_us">Contact Us</a></li>
 		</ul>
 	</div>
 
 	<div class="main">
-		<div id="carousel1" class="carousel slide" data-ride="carousel">
+		<div id="new_carousel" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
-				<li data-target="#carousel1" data-slide-to="0" class="active"></li>
-				<li data-target="#carousel1" data-slide-to="1"></li>
-				<li data-target="#carousel1" data-slide-to="2"></li>
+				<li data-target="#new_carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#new_carousel" data-slide-to="1"></li>
+				<li data-target="#new_carousel" data-slide-to="2"></li>
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
@@ -44,11 +44,11 @@
 					<img class="d-block w-100" src="./shared/images/3.jpeg" alt="">
 				</div>
 			</div>
-			<a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+			<a class="carousel-control-prev" href="#new_carousel" role="button" data-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="sr-only">Prev</span>
 			</a>
-			<a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+			<a class="carousel-control-next" href="#new_carousel" role="button" data-slide="next">
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
 			</a>
@@ -104,16 +104,13 @@
 				</div>
 				<div class="form-group-handler">
 					<div class="form-group">
-						<input placeholder=" " required type="text" name="Name" />
-						<label for="Name">First Name</label>
+						<input placeholder ="First Name" required type="text" name="Name" />
 					</div>
 					<div class="form-group">
-						<input placeholder=" " required type="text" name="adress" />
-						<label for="adress">Last Name</label>
+						<input placeholder="Last Name" required type="text" name="adress" />
 					</div>
 					<div class="form-group">
-						<input placeholder=" " required pattern="+(0-9){12}" type="text" name="phone" />
-						<label for="phone">Phone Number</label>
+						<input placeholder="Phone Number" required pattern="+(0-9){12}" type="text" name="phone" />
 					</div>
 					<div class="form-group">
 						<input type="submit" value="Send" />
@@ -122,7 +119,7 @@
 			</form>
 		</div>
 	</div>
-	<div class="footer theme-1">
+	<div class="footer color-1">
 		<div class="wrapper">
 			<p class="copy">Copyrights &copyIgor Dyachenko, 2019</p>
 		</div>
